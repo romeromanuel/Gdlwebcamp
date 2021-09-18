@@ -124,7 +124,7 @@ body {
 /** Globales **/
 .contenedor {
   max-width: 1200px;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -469,8 +469,8 @@ p.slogan span {
 
 /** Mobile-menu **/
 .menu-movil span {
-  height: 0.8rem;
-  width: 5rem;
+  height: 0.5rem;
+  width: 4rem;
   margin-bottom: 0.6rem;
   background-color: #ffffff;
   display: block;
@@ -902,11 +902,13 @@ blockquote p::before {
   color: #ffffff;
 }
 
+.grid-footer {
+  display: grid;
+  gap: 2rem 4rem;
+}
 @media (min-width: 768px) {
   .grid-footer {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
   }
 }
 
@@ -919,10 +921,6 @@ blockquote p::before {
 
 .site-footer h3 span {
   color: #fe4918;
-}
-
-.ultimos-tweets li {
-  margin-bottom: 1rem;
 }
 
 .menu .redes-sociales {

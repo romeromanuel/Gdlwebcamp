@@ -264,7 +264,7 @@ $(function () {
   });
 
   // Cuenta Regresiva
-  $('.cuenta-regresiva').countdown('2024/06/24 12:00:00', function (event) {
+  $('.cuenta-regresiva').countdown('2021/12/10 12:00:00', function (event) {
     $('#dias').text(event.strftime('%D'));
     $('#horas').text(event.strftime('%H'));
     $('#minutos').text(event.strftime('%M'));
